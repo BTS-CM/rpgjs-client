@@ -1,0 +1,15 @@
+import { e as extensions, c as ResizePlugin, T as TickerPlugin, G as GraphicsPipe, d as GraphicsContextSystem, M as MeshPipe, f as CanvasTextSystem, g as CanvasTextPipe, B as BitmapTextPipe, H as HTMLTextSystem, h as HTMLTextPipe, j as TilingSpritePipe, N as NineSliceSpritePipe, k as FilterSystem, l as FilterPipe } from "./index-fc1e813a.js";
+extensions.add(ResizePlugin);
+extensions.add(TickerPlugin);
+extensions.add(GraphicsPipe);
+extensions.add(GraphicsContextSystem);
+extensions.add(MeshPipe);
+extensions.add(CanvasTextSystem);
+extensions.add(CanvasTextPipe);
+extensions.add(BitmapTextPipe);
+extensions.add(HTMLTextSystem);
+extensions.add(HTMLTextPipe);
+extensions.add(TilingSpritePipe);
+extensions.add(NineSliceSpritePipe);
+extensions.add(FilterSystem);
+extensions.add(FilterPipe);

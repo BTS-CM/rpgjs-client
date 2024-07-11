@@ -1,14 +1,40 @@
 {
-  "_index-ba657126.js": {
+  "_index-fc1e813a.js": {
     "dynamicImports": [
+      "node_modules/pixi.js/lib/environment-browser/browserAll.mjs",
+      "node_modules/pixi.js/lib/environment-webworker/webworkerAll.mjs",
       "src/Gui/React.ts"
     ],
-    "file": "index-ba657126.js"
+    "file": "index-fc1e813a.js"
+  },
+  "_init-b679b4ed.js": {
+    "file": "init-b679b4ed.js",
+    "imports": [
+      "_index-fc1e813a.js"
+    ]
+  },
+  "node_modules/pixi.js/lib/environment-browser/browserAll.mjs": {
+    "file": "browserAll-a889317c.js",
+    "imports": [
+      "_index-fc1e813a.js",
+      "_init-b679b4ed.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/pixi.js/lib/environment-browser/browserAll.mjs"
+  },
+  "node_modules/pixi.js/lib/environment-webworker/webworkerAll.mjs": {
+    "file": "webworkerAll-d9f06753.js",
+    "imports": [
+      "_init-b679b4ed.js",
+      "_index-fc1e813a.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/pixi.js/lib/environment-webworker/webworkerAll.mjs"
   },
   "src/Gui/React.ts": {
-    "file": "React-ece4b906.js",
+    "file": "React-f596b6f4.js",
     "imports": [
-      "_index-ba657126.js"
+      "_index-fc1e813a.js"
     ],
     "isDynamicEntry": true,
     "src": "src/Gui/React.ts"

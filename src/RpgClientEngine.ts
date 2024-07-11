@@ -25,7 +25,7 @@ import { Spritesheet } from './Sprite/Spritesheet'
 import { log } from './Logger'
 import { Sound } from './Sound/Sound'
 import { constructor, ObjectFixtureList, PlayerType, SocketEvents, SocketMethods, Tick } from '@rpgjs/types'
-import { Assets, utils } from 'pixi.js'
+import { Assets  } from 'pixi.js'
 import * as PIXI from 'pixi.js'
 
 const { extractId, isString } = Utils
@@ -810,13 +810,15 @@ export class RpgClientEngine {
         spritesheets.clear()
         sounds.clear()
         Assets.reset()
-        utils.clearTextureCache()
+        //utils.clearTextureCache()
+        /*
         for (let textureUrl in utils.BaseTextureCache) {
             delete utils.BaseTextureCache[textureUrl]
         }
         for (let textureUrl in utils.TextureCache) {
             delete utils.TextureCache[textureUrl]
         }
+        */
         RpgGui.clear()
         RpgCommonMap.bufferClient.clear()
         RpgSound.clear()
